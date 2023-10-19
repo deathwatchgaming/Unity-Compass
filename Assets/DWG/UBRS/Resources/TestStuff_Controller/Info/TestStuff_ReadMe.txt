@@ -15,7 +15,24 @@ Setup Instructions:
 
 ____________________________________________________________________
 
-Step 1:
+Step 1: * Added for Nicer Organiztion
+____________________________________________________________________
+
+Create Empty: "Environment"
+
+Position: X: 0 Y: 0 Z: 0
+Rotation: X: 0 Y: 0 Z: 0
+Scale:    X: 1 Y: 1 Z: 1
+
+First since this is just a "holder" added for better organization, 
+let us go ahead & drag the "Directional Light" into "Environment".
+
+Also: We don't need the "Main Camera" in Sample Scene, so..., 
+we can go ahead and delete it.
+
+____________________________________________________________________
+
+Step 2:
 ____________________________________________________________________
 
 Create New 3D Object: "Plane"
@@ -26,9 +43,13 @@ Scale:    X: 10 Y: 0 Z: 10
 
 Rename to: "Terrain Plane"
 
+We can now opt to clean up for better organization, simply drag the:
+"Terrain Plane" into the holder "Environment" we added for just this 
+exact purpose!
+
 ____________________________________________________________________
 
-Step 2:
+Step 3:
 ____________________________________________________________________
 
 Create New 3D Object: "Terrain"
@@ -46,9 +67,13 @@ Position: X: -50 Y: 0.01 Z: -50
 Rotation: X: 0 Y: 0 Z: 0
 Scale:    X: 1 Y: 1 Z: 1
 
+We can now opt to clean up for better organization, simply drag the:
+"Terrain" into the holder "Environment" we added for just this 
+exact purpose!
+
 ____________________________________________________________________
 
-Step 3:
+Step 4:
 ____________________________________________________________________
 
 Create Empty Game Object: "FPSController" And Add Tag: "Player"
@@ -59,7 +84,7 @@ Scale:    X: 1 Y: 1 Z: 1
 
 ____________________________________________________________________
 
-Step 4:
+Step 5:
 ____________________________________________________________________
 
 In "FPSController" Create: 3D Object "Capsule" And Rename To: 
@@ -74,7 +99,7 @@ Add Material: "capsule_material.mat"
 
 ____________________________________________________________________
 
-Step 5:
+Step 6:
 ____________________________________________________________________
 
 In "FPSController" Create: "Camera" And Rename To: 
@@ -87,7 +112,7 @@ Scale:    X: 1 Y: 1 Z: 1
 
 ____________________________________________________________________
 
-Step 6:
+Step 7:
 ____________________________________________________________________
 
 Now Attach The Component / Script To: 
