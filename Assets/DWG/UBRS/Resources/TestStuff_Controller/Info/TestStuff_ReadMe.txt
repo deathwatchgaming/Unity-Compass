@@ -27,6 +27,11 @@ Scale:    X: 1 Y: 1 Z: 1
 First since this is just a "holder" added for better organization, 
 let us go ahead & drag the "Directional Light" into "Environment".
 
+* also if you wanted you could add a "dir" called Environment and opt 
+  to place your TerrainData inside that in its own Dir "TerrainData",
+  and as such any other Environment stuff respectively in as desired
+  the "Environment" dir. Just a suggestion.
+
 Also: We don't need the "Main Camera" in Sample Scene, so..., 
 we can go ahead and delete it.
 
