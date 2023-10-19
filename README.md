@@ -14,6 +14,8 @@ Setup Info:
 
  Simple manual setup details can be found in the relatedDIR: "Info" via ReadMeLegacy.txt
 
+ https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/UI/Compass/Info/ReadMeLegacy.txt
+
 
  Compass (Text Mesh Pro)
 -------------------------
@@ -26,7 +28,7 @@ Setup Info:
 
  Simple manual setup details can be found in the related DIR: "Info" via ReadMeTMP.txt
 
-
+ https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/UI/Compass/Info/ReadMeTMP.txt
 
  EXTRAS:
 ---------
@@ -43,4 +45,6 @@ Description:
 
 Setup Info:
 
- Simple manual setup details can be found in the related DIR: "Info" via TestStuff_ReadMe
+ Simple manual setup details can be found in the related DIR: "Info" via TestStuff_ReadMe.txt
+
+ https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/TestStuff_Controller/Info/TestStuff_ReadMe.txt
