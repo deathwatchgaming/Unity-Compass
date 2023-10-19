@@ -15,7 +15,7 @@ Setup Instructions:
 
 ____________________________________________________________________
 
-Step 1: * Added for Nicer Organiztion
+Step 1: * Added for Nicer Organization
 ____________________________________________________________________
 
 Create Empty: "Environment"
