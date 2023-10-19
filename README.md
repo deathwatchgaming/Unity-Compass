@@ -12,7 +12,7 @@ Add a Compass to your Unity Projects using (Text Legacy)
 
 Setup Info:
 
- Simple manual setup details can be found in the relatedDIR: "Info" via ReadMeLegacy.txt
+ Simple manual setup details can be found in the related DIR: "Info" via ReadMeLegacy.txt
 
  https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/UI/Compass/Info/ReadMeLegacy.txt
 
