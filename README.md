@@ -48,3 +48,12 @@ Setup Info:
  Simple manual setup details can be found in the related DIR: "Info" via TestStuff_ReadMe.txt
 
  https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/TestStuff_Controller/Info/TestStuff_ReadMe.txt
+
+ 
+ Notes / Considerations / Suggestions:
+---------------------------------------
+
+ https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/UI/Compass/Info/Priority_Considerations.txt
+
+ https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/UI/Compass/Info/Suggested.txt 
+

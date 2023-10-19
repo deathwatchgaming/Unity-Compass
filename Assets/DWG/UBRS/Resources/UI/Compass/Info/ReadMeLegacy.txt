@@ -37,10 +37,28 @@ ________________________________________________________________________________
 
 1.B) Inside the new "UI", then create a UI: -> "Canvas"
 
+Note: You can set your canvas up how you want, that is why I did not comment much 
+      on such. Same Goes fo uvRect on things within the UI canvas as that is perhaps 
+      personal prefs and for these instructions one assumed one would just start with 
+      the default middle center such and tweak such from there.
+
+     * Such is up to the end-user and their prefs, but just so noone says I left it 
+     out, so here is just one "Canvas" example:
+
+      UI Scaler: 
+      ----------
+
+      UI Scale Mode: Scale With Screen Size
+      Reference Resolution: X: 1920 Y: 1080
+      Match: 0 (Width)
+      Reference Pixels Per: 1920
+
 1.C) Inside the "Canvas", create a new empty called: "Compass"
      * Note: This will house all the compass related stuff
 
 1.D) Add / Modify Details for "Compass":
+
+Rect Transform Anchors: middle & center * default, though you can change as you desire later
 
 Position: X: 357 Y: -229 Z: 0
 Width: 100
@@ -60,6 +78,10 @@ ________________________________________________________________________________
      * Layer should also be "UI"     
 
 2.B) Add / Modify Details for "Compass Degree Text (Legacy)":
+
+Rect Transform Anchors: middle & center * 
+
+ * default, though you can change as you desire later
 
 Position: X: -357 Y: 338 Z: 0
 Width: 200
@@ -86,6 +108,10 @@ ________________________________________________________________________________
 3.B) Rename the "RawImage" to: "Compass Background"
 
 3.C) In Inspector Edit the following as follows:
+
+Rect Transform Anchors: middle & center * 
+
+ * default, though you can change as you desire later
 
 Position: X: -357 Y: 486 Z: 0
 Width: 1152
@@ -128,6 +154,10 @@ ________________________________________________________________________________
 4.B) Rename the "RawImage" to: "Compass"
 
 4.C) In Inspector Edit the following as follows:
+
+Rect Transform Anchors: middle & center * 
+
+ * default, though you can change as you desire later
 
 Position: X: -357 Y: 486 Z: 0
 Width: 1152

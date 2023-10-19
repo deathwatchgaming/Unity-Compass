@@ -45,7 +45,7 @@ namespace UBRS.DWG_Compass_Legacy
                 // CompassIMG - Image - gameObject - SetActive - True
                 CompassIMG.gameObject.SetActive(true);
 
-                // GetComponent - DWG_Compass_TMP - Enabled - True
+                // GetComponent - DWG_Compass_Legacy - Enabled - True
                 GetComponent<DWG_Compass_Legacy>().enabled = true;
 
                 // Debug - Log - Compass Enabled
@@ -117,8 +117,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - North
                     CompassDirection.text = "N";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 360		
                 case 360:
@@ -126,8 +126,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - North
                     CompassDirection.text = "N";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 45		
                 case 45:
@@ -135,8 +135,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - North East
                     CompassDirection.text = "NE";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 190		
                 case 90:
@@ -144,8 +144,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - East
                     CompassDirection.text = "E";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 130		
                 case 130:
@@ -153,8 +153,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - South East
                     CompassDirection.text = "SE";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 180		
                 case 180:
@@ -162,8 +162,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - South
                     CompassDirection.text = "S";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 225		
                 case 225:
@@ -171,8 +171,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - South West
                     CompassDirection.text = "SW";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case	- 270		
                 case 270:
@@ -180,8 +180,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - West
                     CompassDirection.text = "W";
 
-                    // Now Break			
-                    break;
+                // Now Break			
+                break;
 
                 // Case - Default			
                 default:
@@ -189,8 +189,8 @@ namespace UBRS.DWG_Compass_Legacy
                     // Do this - Compass Direction - Text - Heading Angle - To String
                     CompassDirection.text = headingAngle.ToString();
 
-                    // Now Break
-                    break;
+                // Now Break
+                break;
 
             } // Close - Switch - Display Angle
 

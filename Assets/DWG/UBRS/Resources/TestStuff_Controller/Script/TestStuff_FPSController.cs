@@ -9,6 +9,9 @@ public class TestStuff_FPSController : MonoBehaviour
 {
     // Wall Jump - Walljumping
 
+    // Remember that Wall Elements should be tagged accordingly ;)
+    // Remember that colliders can be your friend :P
+
     // Public - LayerMask
     public LayerMask wallLayer;
     // Public- float
