@@ -218,4 +218,75 @@ have one setup rather than both variants. Hopefully that reasoning makes sense.
 
 -------------------------------------------------------------------------------------
 
+
+
 Alright, now that is it for setup! Simple enough, right?! Best of Luck!
+
+
+______________________________________________________________________________________
+
+NOTE: On Changing Transform Anchors & Stretching Compass Out
+______________________________________________________________________________________
+
+As noted in previous instructions this was mentioned:
+
+"Rect Transform Anchors: middle & center * 
+
+ * default, though you can change as you desire later"
+
+
+ Here is just one basic example of saying moving the transform anchors fom
+ "middle & center" to: "Top & Center" and then say for example: stretching the
+ compass across the top and scaling the font to reflect such just for an example.
+
+----------------------------------------------------------------------------------------
+Compass (Holder):
+----------------------------------------------------------------------------------------
+
+Modify for example:
+
+Rect Transform Anchors: Top & Center
+
+Position: X: 357 Y: -537 Z: 0
+
+----------------------------------------------------------------------------------------
+Compass Degree Text (TMP) (Text):
+----------------------------------------------------------------------------------------
+
+Modify for example:
+
+Rect Transform Anchors: Top & Center
+
+Position: X: -357 Y: 288 Z: 0 
+
+----------------------------------------------------------------------------------------
+Compass Background (Image):
+----------------------------------------------------------------------------------------
+
+Modify for example:
+
+Rect Transform Anchors: Top & Center
+
+Position: X: -357 Y: 436 Z: 0
+
+Width: 1920 
+Height: 97
+
+----------------------------------------------------------------------------------------
+Compass (Image:
+----------------------------------------------------------------------------------------
+
+Modify for example:
+
+Rect Transform Anchors: Top & Center
+
+Position: X: -357 Y: 436 Z: 0
+
+Width: 1920 
+Height: 77
+
+----------------------------------------------------------------------------------------
+
+
+Alright, now that is it for that! Simple enough, right?! Best of Luck!
+
