@@ -231,8 +231,8 @@ As noted in previous instructions this was mentioned:
  * default, though you can change as you desire later"
 
 
- Here is just one basic example of saying moving the transform anchors fom
- "middle & center" to: "Top & Center" and then say for example: stretching the
+ Here is just one basic example of saying moving the transform anchors from
+ "Middle & Center" to: "Top & Center" and then say for example: stretching the
  compass across the top and scaling the font to reflect such just for an example.
 
 ----------------------------------------------------------------------------------------
@@ -269,7 +269,7 @@ Width: 1920
 Height: 97
 
 ----------------------------------------------------------------------------------------
-Compass (Image:
+Compass (Image):
 ----------------------------------------------------------------------------------------
 
 Modify for example:
