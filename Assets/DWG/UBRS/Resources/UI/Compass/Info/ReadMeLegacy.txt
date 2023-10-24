@@ -287,3 +287,52 @@ Height: 77
 
 
 Alright, now that is it for that! Simple enough, right?! Best of Luck!
+
+
+________________________________________________________________________________________
+
+Add Cursor Icon (Optional) : Create in UI -> Canvas -> Cursor (RawImage)
+________________________________________________________________________________________
+
+
+A) Go back into "Canvas" and create "RawImage" and name it: "Cursor"
+
+B) Make sure the "Layer" is set as: "UI"
+
+Modify:
+
+Rect Transform
+---------------
+
+Anchors: Middle & Center
+
+Position: X: 0  Y: 0  Z: 0
+Width: 64
+Height: 64
+
+C) Add / Import the actual image to your project: "DWG_CursorA.png"
+
+Change the folllowing settings as such:
+
+ Texture Type: Sprite (2D and UI)
+ Texture Shape: 2D
+ Compression: None
+
+ Then select "Apply" to apply the changes.
+
+
+D) Back in "Cursor":
+
+Modify:
+
+Raw Image
+------------------
+
+Texture: DWG_CursorA
+
+
+----------------------------------------------------------------------------------------
+
+
+Alright, now that is it for that! Simple enough, right?! Best of Luck!
+
