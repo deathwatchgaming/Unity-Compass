@@ -295,11 +295,12 @@ Alright, now that is it for that! Simple enough, right?! Best of Luck!
 
 ________________________________________________________________________________________
 
-Add Cursor Icon (Optional) : Create in UI -> Canvas -> Cursor (RawImage)
+Add Cursor Icon (Optional) : Create in UI -> Canvas -> Cursor -> Cursor Image (RawImage)
 ________________________________________________________________________________________
 
 
-A) Go back into "Canvas" and create "RawImage" and name it: "Cursor"
+A) Go back into "Canvas" and create "Empty" and name it: "Cursor"
+   * this is a "holder" that we will use to attach a script to.
 
 B) Make sure the "Layer" is set as: "UI"
 
@@ -314,9 +315,25 @@ Position: X: 0  Y: 0  Z: 0
 Width: 64
 Height: 64
 
-C) Add / Import the actual image to your project: "DWG_CursorA.png"
 
-Change the folllowing settings as such:
+C) Go into "Cursor" and create "RawImage" and name it: "Cursor Image"
+
+D) Make sure the "Layer" is set as: "UI"
+
+Modify:
+
+Rect Transform
+---------------
+
+Anchors: Middle & Center
+
+Position: X: 0  Y: 0  Z: 0
+Width: 64
+Height: 64
+
+E) Add / Import the actual image to your project: "DWG_CursorA.png"
+
+Change the following settings as such:
 
  Texture Type: Sprite (2D and UI)
  Texture Shape: 2D
@@ -325,7 +342,7 @@ Change the folllowing settings as such:
  Then select "Apply" to apply the changes.
 
 
-D) Back in "Cursor":
+F) Back in "Cursor Image":
 
 Modify:
 
@@ -333,6 +350,25 @@ Raw Image
 ------------------
 
 Texture: DWG_CursorA
+
+
+Last Step: Add Component / Script
+---------------------------------
+
+G.1) In: UI -> Canvas - Cursor
+     
+     Add component / script: "DWG_Cursor.cs"
+
+G.2) Ok, now fill out the related settings:
+
+
+For -> DWG_Cursor (Script):
+--------------------------------
+
+Script: DWG_Cursor
+Cursor: Cursor Image (Raw Image)
+Cursor Enabled: Check * Checked by default
+
 
 
 ----------------------------------------------------------------------------------------
