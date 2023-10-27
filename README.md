@@ -37,6 +37,10 @@ Setup Info:
  TestStuff Controller
 -------------------------
 
+ Note: while this was included in this repo, it has now been removed from this repository and placed in its own repo found at:
+
+ https://github.com/deathwatchgaming/Unity-TestStuff_FPSController
+ 
 Description:
 
  The Compass needs some sort of characterController to work, thus one would not be able to test such 
@@ -47,8 +51,8 @@ Setup Info:
 
  Simple manual setup details can be found in the related DIR: "Info" via TestStuff_ReadMe.txt
 
- https://github.com/deathwatchgaming/Unity-Compass/blob/main/Assets/DWG/UBRS/Resources/TestStuff_Controller/Info/TestStuff_ReadMe.txt
-
+  https://github.com/deathwatchgaming/Unity-TestStuff_FPSController/blob/main/Assets/DWG/UBRS/Resources/TestStuff_FPSController/Info/TestStuff_FPSControllerReadMe.txt
+ 
  
  Notes / Considerations / Suggestions:
 ---------------------------------------
