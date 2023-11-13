@@ -1,10 +1,19 @@
+/*
+*
+*  Name: DWG Compass (Text Mesh Pro)
+*  File: DWG_Compass_TMP.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
 // Using - Engine - UI - TMPro
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-// Namespace - UBRS.DWG_Compass_TMP
-namespace UBRS.DWG_Compass_TMP
+// Namespace - DWG.UBRS.DWG_Compass_TMP
+namespace DWG.UBRS.DWG_Compass_TMP
 {
     // Public - Class - DWG_Compass_TMP
     public class DWG_Compass_TMP : MonoBehaviour
@@ -200,4 +209,4 @@ namespace UBRS.DWG_Compass_TMP
 
     } // Close - Public - Class - DWG_Compass_TMP
 
-} // Close - Namespace - UBRS.DWG_Compass_TMP
+} // Close - Namespace - DWG.UBRS.DWG_Compass_TMP

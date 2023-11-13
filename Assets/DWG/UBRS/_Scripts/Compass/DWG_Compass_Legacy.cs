@@ -1,9 +1,18 @@
+/*
+*
+*  Name: DWG Compass (Text Legacy)
+*  File: DWG_Compass_Legacy.cs
+*  Author: Deathwatch Gaming
+*  License: MIT
+*
+*/
+
 // Using - Engine - UI
 using UnityEngine;
 using UnityEngine.UI;
 
-// Namespace - UBRS.DWG_Compass_Legacy
-namespace UBRS.DWG_Compass_Legacy
+// Namespace - DWG.UBRS.DWG_Compass_Legacy
+namespace DWG.UBRS.DWG_Compass_Legacy
 {
     // Public - Class - DWG_Compass_Legacy
     public class DWG_Compass_Legacy : MonoBehaviour
@@ -198,4 +207,4 @@ namespace UBRS.DWG_Compass_Legacy
 
     } // Close - Public - Class - DWG_Compass_Legacy
 
-} // Close - Namespace - UBRS.DWG_Compass_Legacy
+} // Close - Namespace - DWG.UBRS.DWG_Compass_Legacy
