@@ -17,7 +17,6 @@ namespace DWG.UBRS.DWG_Compass_Legacy
     // Public - Class - DWG_Compass_Legacy
     public class DWG_Compass_Legacy : MonoBehaviour
     {
-
         // Public - RawImage - CompassIMG - Image
         public RawImage CompassIMG;
 
@@ -36,15 +35,12 @@ namespace DWG.UBRS.DWG_Compass_Legacy
         // Public - Bool - CompassEnabled - False
         public bool CompassEnabled = false; // comment this out if you want it true by default and uncomment above
 
-
         // Public - Void - Update
         public void Update()
         {
-
             // If CompassEnabled Is True
             if (CompassEnabled == true)
             {
-
                 // CompassDirection - gameObject - SetActive - True
                 CompassDirection.gameObject.SetActive(true);
 
@@ -65,7 +61,6 @@ namespace DWG.UBRS.DWG_Compass_Legacy
             // Else If CompassEnabled Is False
             else if (CompassEnabled == false) 
             {
-
                 // CompassDirection - gameObject - SetActive - False
                 CompassDirection.gameObject.SetActive(false);
 
@@ -119,7 +114,6 @@ namespace DWG.UBRS.DWG_Compass_Legacy
             // Switch - Display Angle
             switch (displayangle)
             {
-
                 // Case - 0
                 case 0:
 
@@ -190,6 +184,15 @@ namespace DWG.UBRS.DWG_Compass_Legacy
                     CompassDirection.text = "W";
 
                 // Now Break			
+                break;
+
+                // Case - 315       
+                case 315:
+
+                    // Do this - Compass Direction - Text - North West
+                    CompassDirection.text = "NW";
+
+                // Now Break            
                 break;
 
                 // Case - Default			

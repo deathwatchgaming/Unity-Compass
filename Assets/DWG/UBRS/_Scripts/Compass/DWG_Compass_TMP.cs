@@ -18,7 +18,6 @@ namespace DWG.UBRS.DWG_Compass_TMP
     // Public - Class - DWG_Compass_TMP
     public class DWG_Compass_TMP : MonoBehaviour
     {
-
         // Public - RawImage - CompassIMG - Image
         public RawImage CompassIMG;
 
@@ -37,15 +36,12 @@ namespace DWG.UBRS.DWG_Compass_TMP
         // Public - Bool - CompassEnabled - False
         public bool CompassEnabled = false; // comment this out if you want it true by default and uncomment above
 
-
         // Public - Void - Update
         public void Update()
         {
-
             // If CompassEnabled Is True
             if (CompassEnabled == true)
             {
-
                 // CompassDirection - gameObject - SetActive - True
                 CompassDirection.gameObject.SetActive(true);
 
@@ -66,7 +62,6 @@ namespace DWG.UBRS.DWG_Compass_TMP
             // Else If CompassEnabled Is False
             else if (CompassEnabled == false) 
             {
-
                 // CompassDirection - gameObject - SetActive - False 
                 CompassDirection.gameObject.SetActive(false);
 
@@ -83,7 +78,6 @@ namespace DWG.UBRS.DWG_Compass_TMP
                 Debug.Log("The (TMP Text) Compass is disabled.");
 
             }
-
 
             // Get A Handle On The Image's uvRect
 
@@ -121,7 +115,6 @@ namespace DWG.UBRS.DWG_Compass_TMP
             // Switch - Display Angle
             switch (displayangle)
             {
-
                 // Case - 0
                 case 0:
 
@@ -192,6 +185,15 @@ namespace DWG.UBRS.DWG_Compass_TMP
                     CompassDirection.text = "W";
 
                 // Now Break			
+                break;
+
+                // Case - 315       
+                case 315:
+
+                    // Do this - Compass Direction - Text - North West
+                    CompassDirection.text = "NW";
+
+                // Now Break            
                 break;
 
                 // Case - Default			
